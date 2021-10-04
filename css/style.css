@@ -1,0 +1,62 @@
+table,
+table td {
+    background-color: #804B00;
+    border: 1px transparent solid;
+}
+
+td {
+    
+
+    text-align: center;
+    vertical-align: middle;
+  
+}
+
+th {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    vertical-align: middle;
+    
+
+}
+
+div {
+    padding: 20px
+    
+}
+
+
+.botoes {
+
+    background-color: #331E00;
+    width : 70px;
+    height : 70px;
+    font-size : 25px;
+    text-align: center;
+    color: #1483CC;
+    font-weight : bold;
+
+
+}
+
+.botoes_grande {
+
+    background-color: #804B00;
+    width : 40px;
+    height : 80px;
+    border: 2px;
+}
+
+.tela {
+    background-color: rgb(126, 126, 126);
+    color: black;
+    height: 60px;
+    font-family: Calculator;
+    font-size : 25px;
+    font-weight: bold; 
+    width: 300px;
+    border: px
+
+
+}

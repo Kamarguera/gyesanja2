@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- 
+    Dicas
+    https://blog.greenroots.info/10-vs-code-emmet-tips-to-make-you-more-productive 
+    https://docs.emmet.io/cheatsheet-a5.pdf-->
+
+
+
+    <!-- ao tentar digitar "git push um erro ocorreu. o próprio git sugeriu o abaixo:" -->
+    <!-- git push --set-upstream origin master -->
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+
+    <title>Calculadora</title>
+
+    <!-- formula emmet -->
+    <!-- table>th{Calculadora}+tr*3>td*3 -->
+
+    <!-- table>th{Calculadora}+(td>input:b)*5>(tr>input:b)*4 -->
+
+
+    <!--  table>th{Calculadora}+((tr>input:b)*3)>((td>input:b)*3) -->
+
+    <!-- (td>input:b)*3 -->
+
+    <h2>Minha primeira calculadora</h2>
+    <div>
+
+        <form name="meu_form">
+            <table border='0'>
+
+                <tr>
+                    <td colspan="4"><input type="text" name="minha_tela" class="tela" value="" id=""></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" value="C" onclick="limpar()" class="botoes"></td>
+                    <td><input type="button" value="DEL" onclick="deletar()" class="botoes"></td>
+                    <td><input type="button" value="-" onclick="inserir('-')" class="botoes"></td>
+                    <td rowspan="2"><input type="button" value="+" onclick="inserir('+')" class="botoes"
+                            css/style.css="height: 150px;"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="inserir(1)" class="botoes"></td>
+                    <td><input type="button" value="2" onclick="inserir(2)" class="botoes"></td>
+                    <td><input type="button" value="3" onclick="inserir(3)" class="botoes"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="6" onclick="inserir(6)" class="botoes"></td>
+                    <td><input type="button" value="4" onclick="inserir(4)" class="botoes"></td>
+                    <td><input type="button" value="5" onclick="inserir(5)" class="botoes"></td>
+                    <td><input type="button" value="/" onclick="inserir('/')" class="botoes"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="inserir(7)" class="botoes"></td>
+                    <td><input type="button" value="8" onclick="inserir(8)" class="botoes"></td>
+                    <td><input type="button" value="9" onclick="inserir(9)" class="botoes"></td>
+                    <td><input type="button" value="*" onclick="inserir('*')" class="botoes"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="." onclick="inserir('.')" class="botoes"></td>
+                    <td><input type="button" value="0" onclick="inserir(0)" class="botoes"></td>
+                    <td colspan="2"><input type="button" value="=" onclick="total()" class="botoes"
+                            css/style.css="width: 160px;"></td>
+
+                </tr>
+            </table>
+        </form>
+
+
+        <script src="js/funcionalidades_calculadora.js"></script>
+        <img src="img/calculadora.png" alt="minha imagem deveira estar aqui" srcset="">
+
+    </div>
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
